@@ -333,7 +333,7 @@ The admin module provides comprehensive management capabilities for platform adm
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/Campus-collab.git
+git clone [https://github.com/your-username/Campus-collab.git](https://github.com/ShravyaJakkani/CampusCollab.git)
 cd Campus-collab
 ```
 
