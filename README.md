@@ -18,7 +18,7 @@
 
 ## 📋 Project Overview
 
-The Campus Collaboration Platform is a robust, production-ready backend application designed to facilitate seamless collaboration among students and faculty. Built with modern Spring Boot architecture, it provides a secure environment for users to create, share, and interact with content while maintaining strict security standards through JWT-based authentication and authorization.
+The Campus Collaboration Platform is a robust, scalable backend application designed to facilitate seamless collaboration among students and faculty. Built with modern Spring Boot architecture, it provides a secure environment for users to create, share, and interact with content while maintaining strict security standards through JWT-based authentication and authorization.
 
 This project demonstrates expertise in:
 - **Enterprise-grade application development** with Spring Boot
@@ -333,8 +333,8 @@ The admin module provides comprehensive management capabilities for platform adm
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/your-username/Campus-collab.git](https://github.com/ShravyaJakkani/CampusCollab.git)
-cd Campus-collab
+git clone https://github.com/ShravyaJakkani/CampusCollab.git
+cd CampusCollab
 ```
 
 ### Database Setup
