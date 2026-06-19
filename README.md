@@ -475,20 +475,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-
+**Shravya Jakkani**
 ---
 
-## 🙏 Acknowledgments
 
-- Spring Boot team for the excellent framework
-- JWT library developers for secure token handling
-- SpringDoc for the OpenAPI integration
-- The open-source community
-
----
 
 <div align="center">
 
