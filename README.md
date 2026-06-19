@@ -346,7 +346,13 @@ CREATE DATABASE campus_collab;
 
 2. **Configure Database Connection**
 
-Edit `src/main/resources/application.properties`:
+The project uses environment variables for sensitive configuration. Copy the example file and customize it:
+
+```bash
+cp src/main/resources/application-example.properties src/main/resources/application.properties
+```
+
+Edit `src/main/resources/application.properties` with your actual values:
 ```properties
 # Server Configuration
 server.port=9004
@@ -354,7 +360,7 @@ server.port=9004
 # MySQL Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/campus_collab?createDatabaseIfNotExist=true
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=your_password_here
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 # JPA/Hibernate Configuration
@@ -363,6 +369,10 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
+# JWT Configuration
+jwt.secret=your_jwt_secret_key_here
+jwt.expiration=86400000
+
 # Logging
 logging.level.org.springframework.web=INFO
 logging.level.org.hibernate=INFO
@@ -370,14 +380,17 @@ logging.level.org.hibernate=INFO
 
 ### Environment Variables
 
-You can also use environment variables for sensitive configuration:
+For production or to avoid committing secrets, use environment variables. The application.properties file uses environment variables with default values:
 
 ```bash
+export DB_URL=jdbc:mysql://localhost:3306/campus_collab?createDatabaseIfNotExist=true
 export DB_USERNAME=root
 export DB_PASSWORD=your_password
 export JWT_SECRET=your_jwt_secret_key
 export JWT_EXPIRATION=86400000
 ```
+
+**Note**: The `application.properties` file is included in `.gitignore` to prevent committing sensitive information. Use `application-example.properties` as a template for your local configuration.
 
 ### Build the Project
 ```bash
