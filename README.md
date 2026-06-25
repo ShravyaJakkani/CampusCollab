@@ -16,6 +16,12 @@
 
 ---
 
+## 🔗 Live Links
+
+- 🌐 **Live API Documentation (Swagger UI)**: https://campuscollab-5ycc.onrender.com/swagger-ui/index.html
+- 📄 **OpenAPI Specification**: https://campuscollab-5ycc.onrender.com/v3/api-docs
+- 💻 **GitHub Repository**: https://github.com/ShravyaJakkani/CampusCollab
+
 ## 📋 Project Overview
 
 The Campus Collaboration Platform is a robust, scalable backend application designed to facilitate seamless collaboration among students and faculty. Built with modern Spring Boot architecture, it provides a secure environment for users to create, share, and interact with content while maintaining strict security standards through JWT-based authentication and authorization.
@@ -251,8 +257,9 @@ com.campus.collab/
 The project includes comprehensive API documentation using **SpringDoc OpenAPI**.
 
 ### Access Swagger UI
-- **Local**: `http://localhost:9004/swagger-ui.html`
+- **Local**: `http://localhost:9004/swagger-ui/index.html`
 - **OpenAPI Spec**: `http://localhost:9004/v3/api-docs`
+- **Production**: `https://campuscollab-5ycc.onrender.com/swagger-ui/index.html`
 
 ### Using JWT in Swagger
 1. Click the **"Authorize"** button in Swagger UI
@@ -470,7 +477,6 @@ curl -X POST http://localhost:9004/api/posts \
 - **Caching**: Add Redis caching for improved performance
 - **Audit Logging**: Track user actions for compliance
 - **Unit Tests**: Comprehensive unit and integration tests
-- **Docker Support**: Containerize the application for easy deployment
 
 ### Scalability Improvements
 - **Microservices Architecture**: Split into separate services
@@ -479,6 +485,20 @@ curl -X POST http://localhost:9004/api/posts \
 - **Database Optimization**: Add indexing and query optimization
 
 ---
+
+## ☁️ Deployment
+
+### Backend
+- Render
+
+### Database
+- Railway MySQL
+
+### API Documentation
+- SpringDoc OpenAPI / Swagger UI
+
+### Containerization
+- Docker
 
 ## 📝 License
 
@@ -489,6 +509,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **Shravya Jakkani**
+- GitHub: https://github.com/ShravyaJakkani
+- Project Repository: https://github.com/ShravyaJakkani/CampusCollab
 ---
 
 
