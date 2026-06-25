@@ -421,13 +421,13 @@ The application will start on `http://localhost:9004`
 ## 🧪 Testing the API
 
 ### Using Swagger UI
-1. Navigate to `http://localhost:9004/swagger-ui.html`
+1. Navigate to `http://localhost:9004/swagger-ui/index.html`
 2. Use the signup endpoint to create a user
 3. Use the login endpoint to get a JWT token
 4. Click "Authorize" and enter your JWT token
 5. Test all endpoints through the interactive UI
 
-### Using cURL
+### Using CURL
 
 **Signup:**
 ```bash
