@@ -387,7 +387,7 @@ logging.level.org.hibernate=INFO
 
 ### Environment Variables
 
-For production or to avoid committing secrets, use environment variables. The application.properties file uses environment variables with default values:
+For production or to avoid committing secrets, use environment variables.
 
 ```bash
 export DB_URL=jdbc:mysql://localhost:3306/campus_collab?createDatabaseIfNotExist=true
